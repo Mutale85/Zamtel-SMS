@@ -2,11 +2,11 @@
 
 $api_key = 'xxxxxxxxxxxxxxxxxxxxxxxx';
 
-$sender_id = 'Weblister.co';
+$sender_id = 'ID';
 
-$contacts = ['260969434999', '260976330092'];
+$contacts = ['26096XXXX', '26097XXXXX', '26095XXXXX'];
 
-$message = 'Testing SMS from weblister.co';
+$message = 'Thank you for trusting and using weblister.co';
 $line = "";
 foreach ($contacts as $phone) {
     $line .= $phone.',';
@@ -36,3 +36,4 @@ try {
 }catch (Exception $exception){
     echo $exception->getMessage();
 }
+
